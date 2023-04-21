@@ -3,8 +3,8 @@
 
 using namespace std;
 
-// to encrypt or decrypt a message using ROT13 algorithm
-string encryptDecryptROT13(string &text) {
+// to encode or decode a message using ROT13 algorithm
+string encodeDecodeROT13(string &text) {
     string result; // resulting text
 
     // replace each letter by 13th letter on
@@ -29,6 +29,6 @@ int main() {
     string originalText; // originalText may be a plaintext or a ciphertext
     cout << "Original Text: "; // ask user to input originalText
     getline(cin, originalText); // read originalText
-    cout << "Text after encryption/decryption: " << encryptDecryptROT13(originalText); // print the resulting text
+    cout << "Text after encoding/decoding: " << encodeDecodeROT13(originalText); // print the resulting text
     return 0;
 }
