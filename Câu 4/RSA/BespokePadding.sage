@@ -35,3 +35,4 @@ b2 = 724533676406564236583139345272874097125954008653941315225015273509768065677
 flag = FranklinReiter(c1, c2, e, n, a1, b1, a2, b2)
 
 print(bytes.fromhex(hex(flag)[2:]).decode())
+
